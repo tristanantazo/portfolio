@@ -1,0 +1,22 @@
+.work_container {
+  color: black;
+  h2 {
+    font-weight: 900;
+    font-size: 27rem;
+    float: right;
+    position: relative;
+    top: -10rem;
+    color: #576383;
+  }
+  .wrapper {
+    display: grid;
+    width: 80%;
+    position: relative;
+    top: -18rem;
+    left: 10%;
+    grid-template-columns: repeat(3, auto [col-start]);
+    grid-template-rows: repeat(2, 50% [row-start]);
+    column-gap: 15px;
+    row-gap: 15px;
+  }
+}

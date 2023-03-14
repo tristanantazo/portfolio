@@ -1,0 +1,16 @@
+.App {
+  section {
+    min-height: 100vh;
+  }
+
+  .about-me {
+    background-color: white;
+    color: var(--dark-bg);
+    padding: 8rem 0px;
+    font-size: 2rem;
+  }
+
+  .work {
+    background-color: var(--dark-bg);
+  }
+}

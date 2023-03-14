@@ -1,0 +1,33 @@
+@use "../../variables" as v;
+
+.contact-me-stack {
+  display: grid;
+  place-items: center;
+  min-height: 100vh;
+  input,
+  textarea {
+    display: block;
+    border-radius: 5px;
+    width: 50%;
+    border: none;
+    color: white;
+  }
+  input {
+    height: 50px;
+  }
+  textarea {
+    height: 200px;
+  }
+  .wrapper {
+    text-align: center;
+    width: 100%;
+    .social__wrapper {
+      margin: calc(v.$fourpx * 10) 0px;
+    }
+
+    button {
+      padding: 10px 30px;
+      font-size: 1.4rem;
+    }
+  }
+}

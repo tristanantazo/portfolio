@@ -1,0 +1,25 @@
+.nav {
+  width: 100%;
+  padding: 0px 40px;
+  box-shadow: rgb(0 0 0 / 8%) 0px 0.125rem 0.25rem;
+  position: relative;
+  background-color: white;
+  z-index: 1;
+  color: var(--dark-bg);
+  .controls {
+    height: 50px;
+    button {
+      padding: 0px 20px;
+      height: 100%;
+      background: transparent;
+      border: none;
+      border-radius: 0px;
+      font-size: 1.5rem;
+      transition: 0.5s ease-in-out;
+      cursor: pointer;
+      &:hover {
+        background-color: var(--light-bg);
+      }
+    }
+  }
+}
