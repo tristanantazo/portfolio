@@ -8,7 +8,7 @@ import Navigation from "./Navigation";
 
 function App() {
   return (
-    <div className="App ad">
+    <div className="App">
       <Navigation />
       <section className="landing section">
         <LandingStack />
